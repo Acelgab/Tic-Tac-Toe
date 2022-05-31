@@ -248,6 +248,28 @@ namespace Tic_Tac_Toe
 
 
         }
+
+        private void btnRestart_Click(object sender, EventArgs e)
+        {
+            tile1.Text = "";
+            tile1.BackColor = Color.LightGreen;
+            tile2.Text = "";
+            tile2.BackColor = Color.LightGreen;
+            tile3.Text = "";
+            tile3.BackColor = Color.LightGreen;
+            tile4.Text = "";
+            tile4.BackColor = Color.LightGreen;
+            tile5.Text = "";
+            tile5.BackColor = Color.LightGreen;
+            tile6.Text = "";
+            tile6.BackColor = Color.LightGreen;
+            tile7.Text = "";
+            tile7.BackColor = Color.LightGreen;
+            tile8.Text = "";
+            tile8.BackColor = Color.LightGreen;
+            tile9.Text = "";
+            tile9.BackColor = Color.LightGreen;
+        }
     }
 }
        

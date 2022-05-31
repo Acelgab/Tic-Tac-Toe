@@ -75,6 +75,7 @@
             // tile5
             // 
             this.tile5.BackColor = System.Drawing.Color.LightGreen;
+            this.tile5.Font = new System.Drawing.Font("Snap ITC", 36F, System.Drawing.FontStyle.Bold);
             this.tile5.Location = new System.Drawing.Point(171, 200);
             this.tile5.Name = "tile5";
             this.tile5.Size = new System.Drawing.Size(109, 78);
@@ -85,6 +86,7 @@
             // tile8
             // 
             this.tile8.BackColor = System.Drawing.Color.LightGreen;
+            this.tile8.Font = new System.Drawing.Font("Snap ITC", 36F, System.Drawing.FontStyle.Bold);
             this.tile8.Location = new System.Drawing.Point(171, 274);
             this.tile8.Name = "tile8";
             this.tile8.Size = new System.Drawing.Size(109, 78);
@@ -95,6 +97,7 @@
             // tile6
             // 
             this.tile6.BackColor = System.Drawing.Color.LightGreen;
+            this.tile6.Font = new System.Drawing.Font("Snap ITC", 36F, System.Drawing.FontStyle.Bold);
             this.tile6.Location = new System.Drawing.Point(277, 200);
             this.tile6.Name = "tile6";
             this.tile6.Size = new System.Drawing.Size(109, 78);
@@ -105,6 +108,7 @@
             // tile4
             // 
             this.tile4.BackColor = System.Drawing.Color.LightGreen;
+            this.tile4.Font = new System.Drawing.Font("Snap ITC", 36F, System.Drawing.FontStyle.Bold);
             this.tile4.Location = new System.Drawing.Point(64, 200);
             this.tile4.Name = "tile4";
             this.tile4.Size = new System.Drawing.Size(109, 78);
@@ -115,6 +119,7 @@
             // tile7
             // 
             this.tile7.BackColor = System.Drawing.Color.LightGreen;
+            this.tile7.Font = new System.Drawing.Font("Snap ITC", 36F, System.Drawing.FontStyle.Bold);
             this.tile7.Location = new System.Drawing.Point(64, 274);
             this.tile7.Name = "tile7";
             this.tile7.Size = new System.Drawing.Size(109, 78);
@@ -125,6 +130,7 @@
             // tile3
             // 
             this.tile3.BackColor = System.Drawing.Color.LightGreen;
+            this.tile3.Font = new System.Drawing.Font("Snap ITC", 36F, System.Drawing.FontStyle.Bold);
             this.tile3.Location = new System.Drawing.Point(277, 124);
             this.tile3.Name = "tile3";
             this.tile3.Size = new System.Drawing.Size(109, 78);
@@ -135,6 +141,7 @@
             // tile2
             // 
             this.tile2.BackColor = System.Drawing.Color.LightGreen;
+            this.tile2.Font = new System.Drawing.Font("Snap ITC", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile2.Location = new System.Drawing.Point(171, 124);
             this.tile2.Name = "tile2";
             this.tile2.Size = new System.Drawing.Size(109, 78);
@@ -145,6 +152,7 @@
             // tile9
             // 
             this.tile9.BackColor = System.Drawing.Color.LightGreen;
+            this.tile9.Font = new System.Drawing.Font("Snap ITC", 36F, System.Drawing.FontStyle.Bold);
             this.tile9.Location = new System.Drawing.Point(277, 274);
             this.tile9.Name = "tile9";
             this.tile9.Size = new System.Drawing.Size(109, 78);
@@ -193,16 +201,19 @@
             // btnRestart
             // 
             this.btnRestart.BackColor = System.Drawing.Color.BlueViolet;
-            this.btnRestart.Location = new System.Drawing.Point(311, 400);
+            this.btnRestart.Font = new System.Drawing.Font("Microsoft Himalaya", 12F, System.Drawing.FontStyle.Bold);
+            this.btnRestart.Location = new System.Drawing.Point(332, 397);
             this.btnRestart.Name = "btnRestart";
-            this.btnRestart.Size = new System.Drawing.Size(96, 33);
+            this.btnRestart.Size = new System.Drawing.Size(75, 36);
             this.btnRestart.TabIndex = 14;
             this.btnRestart.Text = "Restart";
             this.btnRestart.UseVisualStyleBackColor = false;
+            this.btnRestart.Click += new System.EventHandler(this.btnRestart_Click);
             // 
             // tile1
             // 
             this.tile1.BackColor = System.Drawing.Color.LightGreen;
+            this.tile1.Font = new System.Drawing.Font("Snap ITC", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile1.Location = new System.Drawing.Point(64, 124);
             this.tile1.Name = "tile1";
             this.tile1.Size = new System.Drawing.Size(109, 78);
@@ -215,7 +226,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.NavajoWhite;
-            this.ClientSize = new System.Drawing.Size(450, 445);
+            this.ClientSize = new System.Drawing.Size(450, 455);
             this.Controls.Add(this.tile1);
             this.Controls.Add(this.btnRestart);
             this.Controls.Add(this.instruction1);
