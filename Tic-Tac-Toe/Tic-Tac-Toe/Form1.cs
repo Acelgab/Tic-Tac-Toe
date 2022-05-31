@@ -253,22 +253,31 @@ namespace Tic_Tac_Toe
         {
             tile1.Text = "";
             tile1.BackColor = Color.LightGreen;
+            tile1.Enabled = true;
             tile2.Text = "";
             tile2.BackColor = Color.LightGreen;
+            tile2.Enabled = true;
             tile3.Text = "";
             tile3.BackColor = Color.LightGreen;
+            tile3.Enabled = true;
             tile4.Text = "";
             tile4.BackColor = Color.LightGreen;
+            tile4.Enabled = true;
             tile5.Text = "";
             tile5.BackColor = Color.LightGreen;
+            tile5.Enabled = true;
             tile6.Text = "";
             tile6.BackColor = Color.LightGreen;
+            tile6.Enabled = true;
             tile7.Text = "";
             tile7.BackColor = Color.LightGreen;
+            tile7.Enabled = true;
             tile8.Text = "";
             tile8.BackColor = Color.LightGreen;
+            tile8.Enabled = true;
             tile9.Text = "";
             tile9.BackColor = Color.LightGreen;
+            tile9.Enabled = true;
         }
     }
 }
