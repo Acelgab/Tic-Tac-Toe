@@ -50,6 +50,7 @@ namespace Tic_Tac_Toe
                 tile1.BackColor = Color.DeepSkyBlue;
             }
             tile1.Enabled = false;
+            winner();
 
         }
 
@@ -71,6 +72,7 @@ namespace Tic_Tac_Toe
                 tile2.BackColor = Color.DeepSkyBlue;
             }
             tile2.Enabled = false;
+            winner();
         }
 
         private void tile3_Click(object sender, EventArgs e)
@@ -86,6 +88,7 @@ namespace Tic_Tac_Toe
                 tile3.BackColor = Color.DeepSkyBlue;
             }
             tile3.Enabled = false;
+            winner();
         }
         private void tile4_Click(object sender, EventArgs e)
         {
@@ -100,6 +103,7 @@ namespace Tic_Tac_Toe
                 tile4.BackColor = Color.DeepSkyBlue;
             }
             tile4.Enabled = false;
+            winner();
         }
         private void tile5_Click(object sender, EventArgs e)
         {
@@ -114,6 +118,7 @@ namespace Tic_Tac_Toe
                 tile5.BackColor = Color.DeepSkyBlue;
             }
             tile5.Enabled = false;
+            winner();
         }
         private void tile6_Click(object sender, EventArgs e)
         {
@@ -128,6 +133,7 @@ namespace Tic_Tac_Toe
                 tile6.BackColor = Color.DeepSkyBlue;
             }
             tile6.Enabled = false;
+            winner();
         }
         private void tile7_Click(object sender, EventArgs e)
         {
@@ -142,6 +148,7 @@ namespace Tic_Tac_Toe
                 tile7.BackColor = Color.DeepSkyBlue;
             }
             tile7.Enabled = false;
+            winner();
         }
 
         private void board_Load(object sender, EventArgs e)
@@ -158,8 +165,8 @@ namespace Tic_Tac_Toe
         {
 
         }
-        
-   
+
+
 
         private void tile8_Click(object sender, EventArgs e)
         {
@@ -174,10 +181,11 @@ namespace Tic_Tac_Toe
                 tile8.BackColor = Color.DeepSkyBlue;
             }
             tile8.Enabled = false;
+            winner();
         }
-        
-         private void tile9_Click(object sender, EventArgs e)
-         {
+
+        private void tile9_Click(object sender, EventArgs e)
+        {
             if (player1.BackColor == Color.Red)
             {
                 tile9.Text = "X";
@@ -189,12 +197,57 @@ namespace Tic_Tac_Toe
                 tile9.BackColor = Color.DeepSkyBlue;
             }
             tile9.Enabled = false;
-         }
+            winner();
+        }
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
+        
+        private void winner()
+        {
 
+            if ((tile1.Text == tile4.Text) && (tile4.Text == tile7.Text) && (!tile1.Enabled))       
+            {
+                MessageBox.Show("Congratulation! You Won!");
+            }
+            else if ((tile2.Text == tile5.Text) && (tile5.Text == tile8.Text) && (!tile2.Enabled))
+            {
+
+                MessageBox.Show("Congratulation! You Won!");
+            }
+            else if ((tile3.Text == tile6.Text) && (tile6.Text == tile9.Text) && (!tile3.Enabled))
+            {
+                MessageBox.Show("Congratulation! You Won!");
+            }
+            else if ((tile1.Text == tile2.Text) && (tile2.Text == tile3.Text) && (!tile1.Enabled))
+            {
+                MessageBox.Show("Congratulation! You Won!");
+            }
+            else if ((tile4.Text == tile5.Text) && (tile5.Text == tile6.Text) && (!tile4.Enabled))
+            {
+                MessageBox.Show("Congratulation! You Won!");
+            }
+            else if ((tile7.Text == tile8.Text) && (tile8.Text == tile9.Text) && (!tile7.Enabled))
+            {
+                MessageBox.Show("Congratulation! You Won!");
+            }
+            else if ((tile1.Text == tile5.Text) && (tile5.Text == tile9.Text) && (!tile1.Enabled))
+            {
+                MessageBox.Show("Congratulation! You Won!");
+            }
+            else if ((tile3.Text == tile5.Text) && (tile5.Text == tile7.Text) && (!tile3.Enabled))
+            {
+                MessageBox.Show("Congratulation! You Won!");
+            }
+
+            
+           
+            
+
+
+
+        }
     }
 }
        
